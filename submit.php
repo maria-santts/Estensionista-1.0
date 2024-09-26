@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'smtp.gmail.com'; // Utilize o servidor SMTP correto
         $mail->SMTPAuth = true;
         $mail->Username = 'eletrodoacao@gmail.com'; // Seu email
-        $mail->Password = 'SUA_SENHA_DE_APP'; // Sua senha ou senha de app
+        $mail->Password = 'qeujjvwwaujjxjmre'; // Sua senha ou senha de app
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
